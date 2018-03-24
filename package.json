@@ -1,0 +1,26 @@
+{
+  "name": "minimaker",
+  "version": "0.0.1",
+  "description": "A browser extension project maker",
+  "main": "src/app.js",
+  "bin": {
+    "mini": "bin/app.js"
+  },
+  "scripts": {
+    "build": "minify src -d bin",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "preferGlobal": true,
+  "keywords": [
+    "browser",
+    "extension",
+    "project",
+    "structure"
+  ],
+  "author": "Mathías Donoso <mathiasd88@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-minify": "^0.3.0",
+    "babel-preset-minify": "^0.3.0"
+  }
+}
