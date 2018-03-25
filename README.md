@@ -32,7 +32,7 @@ npm install -g minimaker
 
 ## Deployment
 
-* TODO
+* TODO: This is still under development mode. Do not use it (for the moment).
 
 ## Built With
 
@@ -41,7 +41,7 @@ npm install -g minimaker
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](LICENSE.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
