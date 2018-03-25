@@ -15,7 +15,7 @@ You just need to install [nodejs](https://nodejs.org)
 Install this package via npm:
 
 ```
-npm install -g mini
+npm install -g minimaker
 ```
 
 ## Running the tests
