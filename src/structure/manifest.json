@@ -12,7 +12,6 @@
   "options_page": "pages/options.html",
   "permissions": [
     "activeTab",
-    "http://*/",
     "storage"
   ],
   "manifest_version": 2
