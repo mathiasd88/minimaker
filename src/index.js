@@ -8,9 +8,9 @@ const action = args[0];
 const name = args[1];
 
 if (action === 'new') {
-    console.log(`Creating new project ${name}`);
+  console.log(`Creating new project ${name}`);
 
-    fs.copy(__dirname + '/structure', name)
-      .then(() => console.log('Success!'))
-      .catch(err => console.error(err))
+  fs.copy(__dirname + '/structure', name)
+    .then(() => console.log('Success!'))
+    .catch(err => console.error(err))
 }

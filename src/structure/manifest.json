@@ -1,15 +1,19 @@
 {
-    "name": "Minimaker project",
-    "version": "1.0",
-    "description": "Basic Example",
-    "background": {
-        "scripts": ["src/background.js"],
-        "persistent": false
-    },
-    "browser_action": {
-        "default_popup": "static/popup.html"
-    },
-    "options_page": "static/options.html",
-    "permissions": [],
-    "manifest_version": 2
+  "name": "Minimaker project",
+  "version": "1.0",
+  "description": "Basic Example",
+  "background": {
+    "scripts": ["src/background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "pages/popup.html"
+  },
+  "options_page": "pages/options.html",
+  "permissions": [
+    "activeTab",
+    "http://*/",
+    "storage"
+  ],
+  "manifest_version": 2
 }

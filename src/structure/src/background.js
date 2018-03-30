@@ -5,5 +5,5 @@
  */
 
 chrome.runtime.onInstalled.addListener(function() {
-    console.log('console.log from the background script.');
+  console.log('console.log from the background script.');
 });
